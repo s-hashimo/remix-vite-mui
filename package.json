@@ -1,0 +1,43 @@
+{
+  "name": "material-ui-remix-ts",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "node ./server.js",
+    "start": "remix-serve ./build/server/index.js",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@remix-run/css-bundle": "latest",
+    "@remix-run/express": "latest",
+    "@remix-run/node": "latest",
+    "@remix-run/react": "latest",
+    "@remix-run/serve": "latest",
+    "@remix-run/server-runtime": "latest",
+    "compression": "latest",
+    "express": "latest",
+    "morgan": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-tsconfig-paths": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "sideEffects": false
+}
